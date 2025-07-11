@@ -249,7 +249,21 @@ Explain the key security measures that will be implemented (e.g., authentication
 
 Provide a brief explanation of why security is crucial for each key area of the project (e.g., protecting user data, securing payments, etc.).
 
-Commit and push the changes to your GitHub repository.
+
+## 🔁 CI/CD Pipeline
+
+**Continuous Integration (CI)** and **Continuous Deployment (CD)** pipelines automate the process of testing, building, and deploying code. CI/CD ensures that every code change is automatically tested and integrated into the main codebase, reducing bugs and making deployments more reliable and faster.
+
+For the Airbnb Clone project, implementing a CI/CD pipeline helps maintain code quality, speed up development, and streamline updates to staging or production environments.
+
+### 🛠️ Tools Used:
+- **GitHub Actions:** Automates workflows such as testing, linting, and deploying code on every push or pull request.
+- **Docker:** Ensures consistent development and production environments by containerizing the application.
+- **Docker Compose:** Manages multi-container applications, making it easy to spin up services like the database or Redis.
+- **Celery with Redis (optional):** Handles background tasks during deployment processes like sending emails or processing queues.
+
+These tools together create a reliable, repeatable, and scalable deployment process for the project.
+
 
 ## 📚 Additional Resources
 
