@@ -243,6 +243,13 @@ Implements indexing, caching, and query optimizations to improve backend perform
 ### 8. **Asynchronous Tasks**
 Uses Celery and Redis to handle background jobs like sending notifications and processing payments. This offloads time-consuming tasks and ensures that the user interface remains responsive.
 
+In your README.md file, create a section called “API Security”.
+
+Explain the key security measures that will be implemented (e.g., authentication, authorization, rate limiting).
+
+Provide a brief explanation of why security is crucial for each key area of the project (e.g., protecting user data, securing payments, etc.).
+
+Commit and push the changes to your GitHub repository.
 
 ## 📚 Additional Resources
 
