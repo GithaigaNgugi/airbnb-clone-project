@@ -1,12 +1,12 @@
-# 🏠 AirBnB Clone Project
+# AirBnB Clone Project
 
-## 🚀 Objective
+## Objective
 
 The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, payments, and reviews. It mimics core Airbnb features while ensuring high performance and reliability.
 
 ---
 
-## 🏆 Project Goals
+## Project Goals
 
 - **User Management:** Secure registration, authentication, and profile management.
 - **Property Management:** Create, update, and retrieve property listings.
@@ -17,7 +17,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
-## 🛠️ Features Overview
+## Features Overview
 
 ### 1. API Documentation
 - **OpenAPI Standard** for consistent and clear API definitions.
@@ -62,7 +62,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
-## 👥 Team Roles
+## Team Roles
 
 - **Backend Developer:** API endpoints & business logic
 - **Database Administrator:** Schema design & optimization
@@ -71,7 +71,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
-## 📈 API Documentation Overview
+## API Documentation Overview
 
 ### REST API
 - Fully documented with OpenAPI
@@ -82,7 +82,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
-## 📌 Endpoints Overview
+## Endpoints Overview
 
 ### Users
 - `GET /users/`
@@ -115,11 +115,11 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - `PUT /reviews/{review_id}/`
 - `DELETE /reviews/{review_id}/`
 
-## 🗄️ Database Design
+## Database Design
 
 This section outlines the key data entities for the AirBnB Clone project and how they relate to each other.
 
-### 🔑 Key Entities & Fields
+### Key Entities & Fields
 
 ---
 
@@ -190,7 +190,7 @@ This section outlines the key data entities for the AirBnB Clone project and how
 
 ---
 
-### 🔄 Entity Relationship Summary
+### Entity Relationship Summary
 
 - **User ⇄ Property:** One-to-many (a user owns many properties)
 - **User ⇄ Booking:** One-to-many (a user makes many bookings)
@@ -199,7 +199,7 @@ This section outlines the key data entities for the AirBnB Clone project and how
 - **Property ⇄ Review:** One-to-many (a property has many reviews)
 - **Booking ⇄ Payment:** One-to-one (each booking has one payment)
 
-## 🧩 Feature Breakdown
+## Feature Breakdown
 
 This section provides a detailed breakdown of the core features implemented in the Airbnb Clone backend and how each contributes to the overall functionality of the application.
 
@@ -250,13 +250,13 @@ Explain the key security measures that will be implemented (e.g., authentication
 Provide a brief explanation of why security is crucial for each key area of the project (e.g., protecting user data, securing payments, etc.).
 
 
-## 🔁 CI/CD Pipeline
+## CI/CD Pipeline
 
 **Continuous Integration (CI)** and **Continuous Deployment (CD)** pipelines automate the process of testing, building, and deploying code. CI/CD ensures that every code change is automatically tested and integrated into the main codebase, reducing bugs and making deployments more reliable and faster.
 
 For the Airbnb Clone project, implementing a CI/CD pipeline helps maintain code quality, speed up development, and streamline updates to staging or production environments.
 
-### 🛠️ Tools Used:
+### Tools Used:
 - **GitHub Actions:** Automates workflows such as testing, linting, and deploying code on every push or pull request.
 - **Docker:** Ensures consistent development and production environments by containerizing the application.
 - **Docker Compose:** Manages multi-container applications, making it easy to spin up services like the database or Redis.
@@ -265,7 +265,7 @@ For the Airbnb Clone project, implementing a CI/CD pipeline helps maintain code 
 These tools together create a reliable, repeatable, and scalable deployment process for the project.
 
 
-## 📚 Additional Resources
+## Additional Resources
 
 - System Design Architecture for Hotel Booking Apps
 - Software Development Team Structure
