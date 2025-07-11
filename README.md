@@ -199,6 +199,49 @@ This section outlines the key data entities for the AirBnB Clone project and how
 - **Property ⇄ Review:** One-to-many (a property has many reviews)
 - **Booking ⇄ Payment:** One-to-one (each booking has one payment)
 
+## 🧩 Feature Breakdown
+
+This section provides a detailed breakdown of the core features implemented in the Airbnb Clone backend and how each contributes to the overall functionality of the application.
+
+---
+
+### 1. **User Management**
+Handles user registration, login, and profile updates. It ensures secure authentication and manages user-related data, allowing users to personalize their experience and interact with other parts of the system.
+
+---
+
+### 2. **Property Management**
+Enables users (hosts) to list, update, and remove property listings. This feature is central to the platform, allowing for a diverse catalog of rental spaces to be created and managed.
+
+---
+
+### 3. **Booking System**
+Allows users to reserve properties for specific dates. It manages booking records, availability checks, and prevents double bookings, supporting a smooth reservation process.
+
+---
+
+### 4. **Payment Processing**
+Integrates with payment services to handle transactions related to bookings. It ensures secure and verifiable payments while recording essential transaction details for reference and reporting.
+
+---
+
+### 5. **Review System**
+Users can leave feedback and ratings on properties they’ve stayed at. This builds trust on the platform, helps users make informed decisions, and allows property owners to improve based on guest input.
+
+---
+
+### 6. **API Documentation**
+The API is fully documented using the OpenAPI specification and GraphQL schema definitions. This improves developer experience, supports front-end integration, and enables third-party services to interact with the backend easily.
+
+---
+
+### 7. **Database Optimization**
+Implements indexing, caching, and query optimizations to improve backend performance. This is crucial for maintaining speed and scalability as user and property data grows.
+
+---
+
+### 8. **Asynchronous Tasks**
+Uses Celery and Redis to handle background jobs like sending notifications and processing payments. This offloads time-consuming tasks and ensures that the user interface remains responsive.
 
 
 ## 📚 Additional Resources
